@@ -1,0 +1,40 @@
+{
+    "name": "codicastudio/adminnotify",
+    "description": "A random Codica Studio package.",
+    "keywords": [
+        ""
+    ],
+    "homepage": "https://github.com/codicastudio/adminnotify",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael J Brown",
+            "email": "mbrown@codicastudio.com",
+            "homepage": "https://codicastudio.com",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "coreproc/nova-echo": "^0.2.0",
+        "pusher/pusher-php-server": "^4.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Coreproc\\NovaNotificationFeed\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Coreproc\\NovaNotificationFeed\\NovaNotificationFeedServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
