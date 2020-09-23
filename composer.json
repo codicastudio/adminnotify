@@ -1,9 +1,7 @@
 {
     "name": "codica-studio/adminnotify",
     "description": "A random Codica Studio package.",
-    "keywords": [
-        ""
-    ],
+
     "homepage": "https://github.com/codica-studio/adminnotify",
     "license": "MIT",
     "authors": [
