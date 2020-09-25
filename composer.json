@@ -1,8 +1,8 @@
 {
-    "name": "codica-studio/adminnotify",
+    "name": "codicastudio/notify",
     "description": "A random Codica Studio package.",
 
-    "homepage": "https://github.com/codicastudio/adminnotify",
+    "homepage": "https://github.com/codicastudio/notify",
     "license": "MIT",
     "authors": [
         {
@@ -33,6 +33,6 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
